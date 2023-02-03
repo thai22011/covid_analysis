@@ -9,7 +9,7 @@ It's been 3 years since the COVID Pandemic occured. Time flied and finally we ha
 Use this bibtex to cite this repository:
 
 ```
-@misc{thai22011_Crypto_Clustering_PricePrediction_2022,
+@misc{thai22011_covid_analysis,
   title={An Overview of COVID Cases and Vaccinations Around the World From 2/2020 - 1/2023},
   author={Thai Nguyen},
   year={2022},
