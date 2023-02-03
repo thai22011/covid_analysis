@@ -11,7 +11,7 @@ Overall, around the world, there were
 - 6,697,002 deaths
 - 1% avg. death per case. 
 
-This showed that COVID had very low death rates compared to other pandemics happened prior such as SARS (2002) 15%, MERS(2012) 34%, H5N1/H7N9 (2005, 2006) 40-60% ![Source](https://www.news-medical.net/health/How-does-the-COVID-19-Pandemic-Compare-to-Other-Pandemics.aspx#:~:text=The%20global%20case%20rates%20and,estimates%20due%20to%20ongoing%20pandemic).  This is a cool statistic of pandemic and logics that HIGH death rates means LOW spreads and vice versa.
+This showed that COVID had very low death rates compared to other pandemics happened prior such as SARS (2002) 15%, MERS(2012) 34%, H5N1/H7N9 (2005, 2006) 40-60% [Source](https://www.news-medical.net/health/How-does-the-COVID-19-Pandemic-Compare-to-Other-Pandemics.aspx#:~:text=The%20global%20case%20rates%20and,estimates%20due%20to%20ongoing%20pandemic).  This is a cool statistic of pandemic and logics that HIGH death rates means LOW spreads and vice versa.
 
 
 
