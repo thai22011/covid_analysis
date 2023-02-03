@@ -20,4 +20,7 @@ Use this bibtex to cite this repository:
 ```
 # Requirements
 
-The project used `Microsoft SQL Server 2022` and `Microsoft SQL Server Management Studio`
+The project used `Microsoft SQL Server 2022` and `Microsoft SQL Server Management Studio`. If you use those 2, you can download the `.xlx` file from OurWorldInData.org. SSMS helped load the dataset instantly while it took MySQL a long time to load.
+
+If you use other RDMS like MySQL or PostgreSQL, you may need to download the `.csv` file. 
+
