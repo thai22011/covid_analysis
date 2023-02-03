@@ -32,14 +32,15 @@ ORDER BY death_perc DESC;
 
 -- Total Cases vs Population
 -- Total Cases vs Total Deaths
-Select Location, date, Population, total_cases, (total_cases/population)*100 as pop_infected_perc, (total_deaths/total_cases)*100 AS death_perc
+Select Location, Population, total_cases, (total_cases/population)*100 as pop_infected_perc, (total_deaths/total_cases)*100 AS death_perc
 FROM CovidDeaths$
+GROUP BY location, population, total_cases, total_deaths
 ORDER BY pop_infected_perc DESC;
 
 -- Countries with Highest Infection Rate compared to Population
 SELECT Location, Population, MAX(total_cases) as highest_cases,  Max((total_cases/population))*100 as pop_infected_perc, MAX((total_deaths/total_cases))*100 AS death_perc
 FROM CovidDeaths$
-GROUP BY Location, Population
+GROUP BY location, population
 ORDER BY pop_infected_perc DESC;
 
 -- Countries with Highest Death Count per Population
@@ -141,4 +142,11 @@ FROM CovidDV
 WHERE continent IS NOT NULL;
 
 Select *, (RollingPeopleVaccinated/Population)*100 AS vac_pop_perc
-From PercentPopulationVaccinated
+From PercentPopulationVaccina
+
+SELECT location, (RollingPeopleVaccinated/Population)*100 AS vac_pop_perc
+FROM PercentPopulationVaccinated
+GROUP BY location, population, RollingPeopleVaccinated
+ORDER BY vac_pop_perc DESC;
+
+
